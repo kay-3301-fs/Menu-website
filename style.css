@@ -1,0 +1,215 @@
+/* body{
+    background-image: url(./IMAGES/home\ page\ back.png);
+    background-size: cover; /* This ensures the image covers the entire background */
+    /* background-position: center; /* This centers the image in the background */
+    /* background-repeat: no-repeat; 
+    opacity: 80; */
+/* }  */
+body{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 20px;
+}
+
+.shop a{
+    text-decoration: none;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 20px;
+}
+
+.More{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menu{
+    font-size: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+
+
+
+.games img {
+    width: 300px;
+    height: auto; 
+    border-radius: 50px;
+}
+
+.games{
+    margin-bottom: 140px;
+}
+
+.games p{
+    padding-top: 50px;
+}
+
+.image-one{
+    float: left;
+}
+
+.image-two{
+    float: right;
+}
+
+.pool-section{
+    padding-bottom: 80px;
+}
+
+.pool-section img{
+    border-radius: 15%;
+    float: left;
+}
+.pool-section p{
+    padding-top: 50px;
+}
+
+
+
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 110px 110px 110px;
+    gap: 0px;
+    margin-left: 50px;
+}
+
+.menu-container img{
+    border-radius: 40px;
+
+}
+
+
+
+
+.sections-container{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    grid-template-rows:200px 200px;
+    gap: 50px;
+    padding-top: 90px;
+    margin-left: 200px;
+}
+
+.sections-container img{
+    border-radius: 40px;
+    border: 1px black solid;
+}
+
+
+/* CHATGPT CODE */
+/* HOME GAMING */
+* {
+    background: whitesmoke;
+    color: black;
+}
+
+body {
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shop, .slogan, .More {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sections-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    padding-top: 90px;
+    margin-left: 200px;
+}
+
+.sections-container img {
+    border-radius: 40px;
+    border: 1px whitesmoke solid;
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+    .sections-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .shop, .slogan, .More {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .sections-container img {
+        width: 60%; /* Adjusted width to make images smaller */
+        height: auto;
+        margin: 0 auto; /* Center the images */
+    }
+
+    .menu-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+
+/* Media qurry for kota menu */
+@media (max-width: 600px) {
+    .shop, .menu {
+        font-size: 16px;
+    }
+
+    .menu-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 0;
+    }
+
+    .menu-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+    }
+}
